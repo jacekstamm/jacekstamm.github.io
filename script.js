@@ -188,7 +188,6 @@ $(document).ready(function() {
       data: JSON.stringify({
         name: relatedTask.title,
         description: relatedTask.content,
-        pos: relatedTask.pos,
         listId: selectedListId
       }),
       success: function(data) {
